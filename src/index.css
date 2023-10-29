@@ -9,3 +9,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+.element {
+  width: 6in; /* Sets the width to 8.27 inches */
+  height: 7.2in; /* Sets the height to 11.69 inches */
+}
+.height {
+  height: 7.2in;
+}

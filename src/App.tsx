@@ -1,15 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/layout/Header";
-import Main from "./pages/Main";
+import Resume from "./components/ui/Resume";
+import SideBar from "./components/ui/SideBar";
+
 export default function App() {
   return (
     <div>
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Main />} />
-        </Routes>
-      </Router>
+      <Resume />
     </div>
   );
 }
