@@ -111,10 +111,6 @@ export default function ResumePreview() {
               ))}
             </ul>
           </div>
-          <div
-            style={{ backgroundColor: userValue.color }}
-            className={`w-20 h-12 mt-[56px] ml-[260px] rounded-tl-full`}
-          ></div>
         </div>
       </div>
       <SelectColor />
